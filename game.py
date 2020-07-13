@@ -163,7 +163,7 @@ class Statek_dol(games.Sprite):
         if self.wait_lustra == 0:
             lustro = Lustro()
             games.screen.add(lustro)
-            self.wait_lustra = random.randrange(50,500)
+            self.wait_lustra = random.randrange(50,300)
 
     # kontroluj pozycję statku jesli wyjdzie poza ekran gry
     def check_position(self):
